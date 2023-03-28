@@ -6,6 +6,13 @@ public class House extends Building{
   private ArrayList<String> residents;
   private boolean hasDiningRoom;
 
+  /**
+   * Constructor for House - builds houses
+   * @param name: name of the house
+   * @param address: address of the house
+   * @param nFloors: number of floors the house has
+   * @param hasDiningRoom: whether or not the house has a dining room
+   */
   public House(String name, String address, int nFloors, boolean hasDiningRoom) {
     // System.out.println("You have built a house: 🏠"); // can't put this at the beginning of a constructor
     super(name, address, nFloors);
